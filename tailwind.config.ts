@@ -7,6 +7,9 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      primary: "JetBrains Mono"
+    },
     screens: {
       sm: '480px',
       md: '768px',
@@ -19,6 +22,9 @@ const config: Config = {
           100: "#49E659",
           500: "#434252",
         },
+      },
+      fontSize: {
+        base: "18px",
       },
       spacing: {
         '1': '100px'
