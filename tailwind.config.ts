@@ -23,8 +23,8 @@ const config: Config = {
           500: "#434252",
         },
       },
-      fontSize: {
-        base: "18px",
+      margin: {
+        4: "20px",
       },
       spacing: {
         '1': '100px'
