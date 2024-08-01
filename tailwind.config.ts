@@ -26,9 +26,9 @@ const config: Config = {
       margin: {
         4: "20px",
       },
-      spacing: {
-        '1': '100px'
-      },
+      // spacing: {
+      //   '1': '100px'
+      // },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
