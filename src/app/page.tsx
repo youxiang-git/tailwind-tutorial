@@ -31,6 +31,62 @@ export default function Home() {
     //   <div className="w-4/5 bg-green-500">Main content</div>
     // </div>
     // Configuring Margin in tailwind.config.ts (margin-4 = 20px instead of default)
-    <h1 className="mb-4">First title</h1>
+    // <h1 className="mb-4">First title</h1>
+    // Flex
+    // <div className="Parent">
+    //   <div>Header</div>
+    //   <div className="flex">
+    //     <div className="grow">Main Content</div>
+    //     <div className="flex flex-col">
+    //       <div>Sidebar</div>
+    //       <div>Menu</div>
+    //     </div>
+    //   </div>
+    // </div>
+    // Flex basis and media queries
+    // <div className="Parent">
+    //   <div>Header</div>
+    //   <div className="flex flex-col md:flex-row">
+    //     <div className="bg-red-500 basis-1/5">Sidebar</div>
+    //     <div className="bg-green-500 basis-3/5">Main Content</div>
+    //     <div className="bg-blue-500 basis-1/5">Another Sidebar</div>
+    //   </div>
+    // </div>
+    // Flex wrap
+    // <div className="Parent">
+    //   <div>
+    //     Header
+    //   </div>
+    //   <div className="flex flex-col md:flex-row">
+    //     <div className="flex w-full flex-wrap">
+    //       <div className="w-32 grow">01</div>
+    //       <div className="w-32 grow">02</div>
+    //       <div className="w-32 grow">03</div>
+    //       <div className="w-32 grow">04</div>
+    //       <div className="w-32 grow">05</div>
+    //     </div>
+    //   </div>
+    // </div>
+    // Justify content
+    // <div className="Parent">
+    //   <div>Header</div>
+    //   <div className="flex items-center justify-evenly">
+    //     <div>Sidebar</div>
+    //     <div>
+    //       <h1>Main Content</h1>
+    //       <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor inventore assumenda tempora ipsum, officiis modi voluptas id dicta exercitationem iste!</p>
+    //     </div>
+    //     <div>Another sidebar</div>
+    //   </div>
+    // </div>
+    // Align items baseline
+    <div className="Parent">
+      <div>Header</div>
+      <div className="flex items-baseline">
+        <div className="pt-2 pb-6 bg-sky-500">01</div>
+        <div className="pt-8 pb-12 bg-red-500">02</div>
+        <div className="pt-12 pb-4 bg-green-500">03</div>
+      </div>
+    </div>
   );
 }
